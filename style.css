@@ -492,7 +492,7 @@ footer span{
     }
     #features>div>div>div img {
         float: left;
-        margin: 40px 0 auto 20px;
+        margin: 20px 0 auto 20px;
         /* position: absolute; */
         top:50%;
     }
@@ -582,7 +582,6 @@ footer span{
     }
     #features>div>div>div img {
         float: left;
-        margin-top: 30px;
     }
     #everything {
         padding-bottom: 75px;
