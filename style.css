@@ -561,7 +561,8 @@ footer span{
     }
     #features>div>div:nth-child(1) {
         width: 35%;
-        padding-top: 130px;
+        padding-top: 130px;        
+        padding-top: 75px;
     }
     #features>div>div:nth-child(1) img {
         width: 225px;
