@@ -715,12 +715,19 @@ footer span{
     #everything {
         padding-bottom: 60px;
     }
+    #everything>div {
+        display: block;
+        
+    }
     #everything>div img {
-        display: none;
+        display: block;
+        width: 96%;
+        margin: 0 auto;
+        padding-top: 40px;
     }
     #everything>div>div {
         width: 100%;
-        padding-top: 40px;
+        padding-top: 10px;
     }
     #everything>div li {
         margin-bottom: 0px;
