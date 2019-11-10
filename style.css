@@ -849,10 +849,10 @@ footer span{
         line-height: 40px;
     }
     #available>div>div>div a:nth-child(1) {
-        left: 2px;
+        left: 8px;
     }
     #available>div>div>div a:nth-child(2) {
-        right: 2px;
+        right: 8px;
     }
     #available>div>div>a {
         width: 80%;
