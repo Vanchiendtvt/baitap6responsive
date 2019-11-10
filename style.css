@@ -728,6 +728,8 @@ footer span{
     #everything>div>div {
         width: 100%;
         padding-top: 10px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
     #everything>div li {
         margin-bottom: 0px;
@@ -855,5 +857,27 @@ footer span{
     #available>div>div>a {
         width: 80%;
         text-align: center;
+    }
+}
+@media screen and (max-width: 350px){
+    #available .container>img {
+        display: none;
+    }
+    #available .container>div {
+        width: 100% ;
+        margin-top: 40px;
+        text-align: center;
+    }
+    #available .container p {
+        text-align: justify;
+    }
+    #available>div>div>div a:nth-child(1) {
+        bottom: 115px;
+        left:50%;
+        transform: translate(-50%, 0%);
+    }
+    #available>div>div>div a:nth-child(2) {
+        right: 50%;
+        transform: translate(50%, 0%);
     }
 }
