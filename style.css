@@ -483,18 +483,21 @@ footer span{
     #features>div>div>div {
         width: 100%;
         height: auto;
-        position: static;
+        position: relative;
         padding-top: 20px;
         padding-bottom: 20px;
         margin-bottom: 20px;
         text-align: left;
-        top:0px; left: 0px;
+    }
+    #features>div>div>div:nth-child(n) {
+        top: 0px;
+        left: 0px;
     }
     #features>div>div>div img {
-        float: left;
-        margin: 20px 0 auto 20px;
-        /* position: absolute; */
+        margin: 0px 0 auto 20px;
+        position: absolute;
         top:50%;
+        transform: translate(0, -50%);
     }
     #features>div>div>div>h3 {
         margin-top: 0px;
@@ -561,7 +564,7 @@ footer span{
     }
     #features>div>div:nth-child(1) {
         width: 35%;
-        padding-top: 130px;        
+        padding-top: 130px;
         padding-top: 75px;
     }
     #features>div>div:nth-child(1) img {
@@ -579,9 +582,6 @@ footer span{
     #features>div>div>div {
         padding-top: 10px;
         padding-bottom: 10px;
-    }
-    #features>div>div>div img {
-        float: left;
     }
     #everything {
         padding-bottom: 75px;
